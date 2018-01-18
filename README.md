@@ -1,3 +1,3 @@
-# erlang 19
+# erlang 20
 
-![Build Status](https://travis-ci.org/cyber-dojo-languages/erlang-19.svg?branch=master)
+![Build Status](https://travis-ci.org/cyber-dojo-languages/erlang-20.svg?branch=master)
