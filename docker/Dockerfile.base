@@ -1,4 +1,2 @@
-FROM cyberdojofoundation/ubuntu-build-essential-18-04:a6578e6
+FROM erlang:alpine
 LABEL maintainer=jon@jaggersoft.com
-
-RUN apt-get install --yes erlang
