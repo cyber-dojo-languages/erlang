@@ -1,2 +1,2 @@
-FROM erlang:alpine
+FROM erlang:27.3.4-slim
 LABEL maintainer=jon@jaggersoft.com
