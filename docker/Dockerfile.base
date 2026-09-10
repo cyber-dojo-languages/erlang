@@ -1,2 +1,5 @@
-FROM erlang:27.3.4-slim
+# The floating slim tag, so a rebuild picks up the newest stable OTP release.
+# It is published as an index holding real amd64 and arm64 layers, so each
+# runner builds from binaries its own kernel can exec.
+FROM erlang:slim
 LABEL maintainer=jon@jaggersoft.com
